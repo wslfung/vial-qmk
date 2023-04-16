@@ -98,3 +98,12 @@
 #undef SPLIT_USB_DETECT
 //https://www.reddit.com/r/ErgoMechKeyboards/comments/11qevf9/comment/jc5y8ux/?context=3
 #define USB_VBUS_PIN GP19
+
+
+// fix for syncing rgb based on layer state
+#define SPLIT_LAYER_STATE_ENABLE
+#define SPLIT_MODS_ENABLE
+
+// mod tap interrupt 
+#define TAPPING_TERM 200
+#define IGNORE_MOD_TAP_INTERRUPT
