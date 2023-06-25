@@ -16,7 +16,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // ),
 
     [0] = LAYOUT_dualarcs_number_row(
-        KC_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_BSLS, KC_BSPC, LCTL_T(KC_A), LALT_T(KC_S), LGUI_T(KC_D), KC_F, KC_G, KC_H, KC_J, RGUI_T(KC_K), RALT_T(KC_L), RCTL_T(KC_SCLN), KC_QUOT, KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_RSFT, KC_NO, KC_NO, KC_NO, KC_NO, MO(3), TD(1), TD(2), KC_DEL, KC_SPC, KC_ENT, KC_NO, KC_NO, KC_NO, KC_NO, KC_ENT, KC_SPC, TD(2), TD(1)
+        KC_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_BSLS, KC_BSPC, LCTL_T(KC_A), LALT_T(KC_S), LGUI_T(KC_D), C_S_T(KC_F), KC_G, KC_H, C_S_T(KC_J), RGUI_T(KC_K), RALT_T(KC_L), RCTL_T(KC_SCLN), KC_QUOT, KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_RSFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_SPC, TD(1), TD(2), KC_DEL, KC_SPC, KC_ENT, KC_NO, KC_NO, KC_NO, KC_NO, KC_ENT, MO(3), TD(2), TD(1)
     ),
 
     // [1] = LAYOUT_dualarcs_number_row(
@@ -154,15 +154,15 @@ rgb_matrix_indicators_user(void) {
 //  37  31  25  19  13  2
 //  36  30  24  18  12  1
 //  35  29  23  17  11  0
-//  34  28  22  16  10  5   6
+//  34  28  22  16    10  5   6
 //                      8   7
 
 // right
-//      43  54  60  66  72  78 
-//      42  53  59  65  71  77
-//      41  52  58  64  70  76
-//      40  51  57  63  69  75
-//  46  45  50  56  62  68  74
+//        43  54  60  66  72  78 
+//        42  53  59  65  71  77
+//        41  52  58  64  70  76
+//        40  51  57  63  69  75
+//  46  45  50    56  62  68  74
 //  47  48
 
         case 1:
@@ -217,7 +217,7 @@ rgb_matrix_indicators_user(void) {
             break;
         case 3:
             // left
-            rgb_matrix_set_color(10, RGB_CYAN);
+            rgb_matrix_set_color(7, RGB_CYAN);
             rgb_matrix_set_color(32, RGB_GREEN);
             rgb_matrix_set_color(38, RGB_GOLD);            
             rgb_matrix_set_color(2, RGB_GREEN);
