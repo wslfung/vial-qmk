@@ -16,7 +16,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // ),
 
     [0] = LAYOUT_dualarcs_number_row(
-        KC_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_BSLS, KC_BSPC, LCTL_T(KC_A), LALT_T(KC_S), LGUI_T(KC_D), C_S_T(KC_F), KC_G, KC_H, C_S_T(KC_J), RGUI_T(KC_K), RALT_T(KC_L), RCTL_T(KC_SCLN), KC_QUOT, KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_RSFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_SPC, TD(1), TD(2), KC_DEL, KC_SPC, KC_ENT, KC_NO, KC_NO, KC_NO, KC_NO, KC_ENT, MO(3), TD(2), TD(1)
+        KC_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_BSLS, KC_BSPC, LCTL_T(KC_A), LALT_T(KC_S), LGUI_T(KC_D), C_S_T(KC_F), KC_G, KC_H, C_S_T(KC_J), RGUI_T(KC_K), RALT_T(KC_L), RCTL_T(KC_SCLN), KC_QUOT, KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_RSFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_SPC, OSL(1), OSL(2), KC_DEL, KC_SPC, KC_ENT, KC_NO, KC_NO, KC_NO, KC_NO, KC_ENT, OSL(3), OSL(2), OSL(1)
     ),
 
     // [1] = LAYOUT_dualarcs_number_row(
@@ -33,11 +33,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [2] = LAYOUT_dualarcs_number_row(
-        KC_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_TRNS, KC_PGUP, KC_HOME, KC_UP, KC_END, KC_TRNS, KC_NO, KC_P7, KC_P8, KC_P9, KC_PPLS, KC_TRNS, KC_TRNS, KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, KC_TRNS, KC_P0, KC_P4, KC_P5, KC_P6, KC_PDOT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_NO, KC_P1, KC_P2, KC_P3, KC_SLSH, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+        KC_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_TRNS, KC_PGUP, KC_HOME, KC_UP, KC_END, KC_TRNS, KC_NO, KC_P7, KC_P8, KC_P9, KC_PPLS, KC_TRNS, KC_TRNS, KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, KC_TRNS, KC_NO, KC_P4, KC_P5, KC_P6, KC_NO, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_NO, KC_P1, KC_P2, KC_P3, KC_SLSH, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_P0, KC_PDOT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
     ),
 
     [3] = LAYOUT_dualarcs_number_row(
-        KC_BRID, KC_BRIU, KC_NO, KC_NO, KC_NO, RGB_TOG, KC_NO, KC_NO, KC_NO, KC_MUTE, KC_VOLD, KC_VOLU, KC_NO, KC_NO, KC_NO, KC_NO, RGB_HUD, RGB_HUI, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_MPRV, KC_MSTP, KC_MPLY, KC_MNXT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO
+        KC_BRID, KC_BRIU, KC_NO, RGB_HUD, RGB_HUI, RGB_TOG, KC_CAPS, KC_NUM, KC_SCRL, KC_MUTE, KC_VOLD, KC_VOLU, KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_I, KC_O, KC_P, KC_BSPC, KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_QUOT, KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_RSFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_NO, KC_NO, KC_MPRV, KC_MPLY, KC_MNXT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_MSTP, KC_NO
     ),
 
     [4] = LAYOUT_dualarcs_number_row(
@@ -209,8 +209,8 @@ rgb_matrix_indicators_user(void) {
             rgb_matrix_set_color(63, RGB_WHITE);  
             rgb_matrix_set_color(51, RGB_WHITE);
             rgb_matrix_set_color(57, RGB_WHITE);
-            rgb_matrix_set_color(41, RGB_WHITE);
-            rgb_matrix_set_color(70, RGB_WHITE);
+            rgb_matrix_set_color(45, RGB_WHITE);
+            rgb_matrix_set_color(50, RGB_WHITE);
             rgb_matrix_set_color(71, RGB_GOLD);
             rgb_matrix_set_color(78, RGB_GOLD);
             rgb_matrix_set_color(47, RGB_CYAN);
@@ -220,17 +220,20 @@ rgb_matrix_indicators_user(void) {
             rgb_matrix_set_color(7, RGB_CYAN);
             rgb_matrix_set_color(32, RGB_GREEN);
             rgb_matrix_set_color(38, RGB_GOLD);            
-            rgb_matrix_set_color(2, RGB_GREEN);
-            rgb_matrix_set_color(13, RGB_GOLD);
+            rgb_matrix_set_color(14, RGB_GREEN);
+            rgb_matrix_set_color(20, RGB_GOLD);
             rgb_matrix_set_color(3, RGB_AZURE);            
             //right
             rgb_matrix_set_color(78, RGB_GREEN);
             rgb_matrix_set_color(72, RGB_GOLD);
             rgb_matrix_set_color(66, RGB_RED);
-            rgb_matrix_set_color(64, RGB_GREEN);
-            rgb_matrix_set_color(58, RGB_RED);
-            rgb_matrix_set_color(52, RGB_GOLD);
-            rgb_matrix_set_color(70, RGB_GOLD);
+            rgb_matrix_set_color(45, RGB_GREEN);
+            rgb_matrix_set_color(47, RGB_RED);
+            rgb_matrix_set_color(46, RGB_GOLD);
+            rgb_matrix_set_color(50, RGB_GOLD);
+            rgb_matrix_set_color(43, RGB_GOLD);
+            rgb_matrix_set_color(54, RGB_GOLD);
+            rgb_matrix_set_color(60, RGB_GOLD);
             break;
         default:
             break;
